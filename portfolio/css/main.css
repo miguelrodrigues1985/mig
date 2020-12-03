@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 320px) {
+    .text {font-size: 11px}
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/back.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+.socialmedia{
+    margin-right: 55px;
+    padding: 0;
+    position: sticky;
+    top: 30px;
+    float: right;
+    z-index: 1000;
+}
+.nav{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Tahoma;
+    font-weight: bold;
+    height: 90px;
+    margin: 5px 0;
+    background-color: black;
+    display: inline-block;
+    color:white;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+    border-radius: 20px;
+    
+}
+a.active{
+    background-color: darkslateblue;
+    color: black;
+}
+b.active{
+    background-color: darkslateblue;
+    color: black;
+}
+a .active,.nav a:hover{
+    background-color: white;
+    color: black;
+    width: 150%;
+}
+.a{
+width: 120%;
+}
+.b{
+    width: 120%;
+}
+.c{
+    width: 120%;
+}
+.d{
+    width: 120%;
+}
+.e{
+    width: 120%;
+}
+.nav .tooltiptext{
+    visibility: hidden;
+    font-size: 15px;
+    width: 250px;
+    height: 30px;
+    left: 105px;
+    display: inline;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+}
+.nav a:hover .tooltiptext{
+    visibility: visible;
+}
+#intro{
+    top: 170px;
+    left: 250px;
+    position: absolute;
+    text-align: left;
+    font-size: 60px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: white;
+    opacity: 0.9;
+    display: block;
+
+}
+#sobre{
+    top: 210px;
+    left: 170px;
+    width: 500px;
+    position: absolute;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: white;
+    opacity: 0.9;
+    display: none;
+    float: left;
+}
+#toptags{
+    font-family: cursive;
+    margin-top: 70px;
+    left: 250px;
+    position: absolute;
+    text-align: left;
+    font-size: 30px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: white;
+    opacity: 0.5;
+    display: block;
+}
+#toptags .bottomtags{
+    font-family: sans-serif;
+    top: 260px;
+    position: absolute;
+    text-align: left;
+    font-size: 30px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: white;
+
+}
+#expe{
+    top: 100px;
+    left: 170px;
+    width: 80%;
+    position: absolute;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: white;
+    opacity: 0.9;
+    display: none;
+}
+#rodape{
+    position: relative;
+    background-color:gray;
+    bottom:18px;
+    font-size: 16px;
+}
+#slideshowcontainer{
+    right: 350px;
+    margin-top: 250px;
+    position: absolute;
+    top: 15px;
+    display: none;
+}
+.active {
+    background-color: #717171;
+}
+.mySlides {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    display: none;
+}
+@-webkit-keyframes fade{
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade{
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+.mySlides .img {vertical-align: middle;
+    right: 350px;
+    margin-top: 250px;
+    position: absolute;
+    top: 15px;
+    opacity: 1;  
+}
+
+#tabela{
+    position: relative;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    margin-bottom:16px;
+
+    top: 100px;
+    left: 170px;
+    width: 80%;
+    position: absolute;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: white;
+    opacity: 0.9;
+    display: none;
+}
+
+#tabela td,th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#tabela tr:nth-child(even){
+        background-color:rgb(84, 135, 182);
+}
+
+#letras{
+    position: relative;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: 15px;
+}
+
+#letras td,th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#letras tr:nth-child(even){
+    background-color: rgb(43, 43, 139);
+}
+
+#contact{
+    display: none;
+}

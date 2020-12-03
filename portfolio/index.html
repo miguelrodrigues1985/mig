@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="sylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/miguel.angelo.73/" target="blank"><i class="fa fa-facebook-official fa-3x"></i></a>
+            <a href="mailto:miguel_lagorodrigues@msn.com" target="blank"><i class="fa fa-google-plus-official fa-3x"></i></a>
+            <a href="https://www.instagram.com/miguelangelo806/" target="blank"><i class="fa fa-instagram fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/miguel-rodrigues-837117200/" target="blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+    </div>
+        <div id="toptags">
+            <span>&lthtml&gt<br>&ltbody&gt<br>&lth1&gt</span><br>
+            <span class="bottomtags">&lt/h1&gt<br><br>&lt/body&gt<br><br>&lt/html&gt</span>
+        </div>
+            <div id="intro">
+                Olá,<br>meu nome é Miguel Rodrigues.
+            </div>
+    </div>
+    <div class="nav">
+        <a href="index.html"class="a active">
+            <i class="fa fa-home"></i>
+            <span class="tooltiptext">Home</span>
+        </a>
+        <a class="b" onclick="pessoal(),showSlides()">
+            <span class="fa fa-user"></span>
+            <span class="tooltiptext">Sobre mim</span>
+        </a>
+        <a class="c" onclick="expe()">
+            <i class="fa fa-gear" ></i>
+            <span class="tooltiptext">Experiência profissional</span>
+        </a>
+        <a class="d">
+            <i class="fa fa-cubes" onclick="showGaleria();"></i>
+            <span class="tooltiptext">Trabalhos</span>
+        </a>
+        <a class="e">
+            <i class="glyphicon glyphicon-envelope" onclick="correio();"></i>
+            <span class="tooltiptext">Contact me</span>
+        </a>
+    </div>
+    <section>
+        <div id="sobre">
+                    <p> Olá, chamo-me Miguel Rodrigues, vivo em Seixal, Portugal e este é o meu portfólio. Começei por me interessar em computadores em 1997,
+                         quando tive pela primeira vez um pentium III, desde então, entrei no mundo de programação, informática, software/hardwares e assim desde
+                          essa altura que sempre dediquei o meu tempo a este mundo virtual e torná-lo o mais real possível. Considero-me uma pessoa erudita em vários
+                           temas de cultura geral, dedicado e interessado em novas tecnologias, especialmente na área de informtática, desenvolvimento de apps e video
+                            jogos na parte back end.  Segui interesses em arquitectura e desenho virtual, como Cad, photoshop, rhino, 3dsmax e outros softwares.
+                             Procuro agora desenvolver as minhas aptidões e aprender linguagens de código, para começar a minha carreira, como programador de informática.
+                              Aqui posso mostrar alguns dos trabalhos, o percurso profissional e os meus contactos.Agradeço antes demais pela atenção dada a esta
+                               página e das minhas capacidades. Um até logo e sincero desejo em conhecer-vos como colega nesta área.
+                    </p>    
+        </div>
+        <div id="slideshowcontainer">
+            <div class="mySlides fade">
+                <img src="images/face 1.png" width="355" height="315">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/face 2.png" width="355" height="315">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/face 3.png" width="355" height="315">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/face 4.png" width="355" height="315">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/face 5.png" width="355" height="315">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/face 6.png" width="355" height="315">
+            </div>
+        </div>
+<br>
+<div style="text-align: center;">
+<span class="dot" onclick="currentslide(1)"></span>
+<span class="dot" onclick="currentslide(2)"></span>
+<span class="dot" onclick="currentslide(3)"></span>
+</div>
+    </section>
+    <section>
+            <div id="expe">
+                <div>
+                    <span style="font-size: x-large;">Experiência profissional</span>
+                    <table style="float: left;width: 35%;" id="tabela">
+                        <tr>
+                            <th>Empresa</th>
+                            <th>Data</th>
+                            <th>Profissão</th>
+                        </tr>
+                        <tr>
+                            <td>SOV, Lisboa</td>
+                            <td>21/10/2004 a 30/10/2005</td>
+                            <td>Vigilante Privado</td>
+                        </tr>
+                        <tr>
+                            <td>Repsol, Lisboa</td>
+                            <td>27/02/2006 a 31/03/2007</td>
+                            <td>Operador de telecomunicações</td>
+                        </tr>
+                        <tr>
+                            <td>Decathlon, Setúbal</td>
+                            <td>1/11/2011 a 31/12/2011</td>
+                            <td>Repositor de artigos</td>
+                        </tr>
+                        <tr>
+                            <td>Companhia do Campo, Setúbal</td>
+                            <td>1/04/2011 a 31/12/2011</td>
+                            <td>Venda a retalho</td>
+                        </tr>
+                        <tr>
+                            <td>Vodafone,Lisboa</td>
+                            <td>1/09/2013 a 31/03/2014</td>
+                            <td>Vendedor Telemarketing</td>
+                        </tr>
+                        <tr>
+                            <td>ARPIAL, Alcochete</td>
+                            <td>5/01/2015 a 31/01/2015</td>
+                            <td>Soldador</td>
+                        </tr>
+                        <tr>
+                            <td>Kyriaka,Setúbal</td>
+                            <td>1/09/2015 a 7/04/2016</td>
+                            <td>Ajudante Montador</td>
+                        </tr>
+                        <tr>
+                            <td>Ready4All,Lisboa</td>
+                            <td>2/04/2016 a 29/04/2018</td>
+                            <td>Motorista Privado</td>
+                        </tr>
+                        <tr>
+                            <td>Emilianos,LDA</td>
+                            <td>5/05/2019 a 2/10/2019</td>
+                            <td>Assistente de eventos</td>
+                        </tr>
+                </div>
+                <div >
+                    <table style="float: left;width: 35%;" id="letras">
+                        <tr>
+                            <th>Línguas Estrangeiras</th>
+                            <th>Compreender Oral</th>
+                            <th>Leitura</th>
+                            <th>Interação Oral</th>
+                            <th>Produção Oral</th>
+                            <th>Escrever</th>
+                        </tr>
+                        <tr>
+                            <td>Inglês</td>
+                            <td>C2</td>
+                            <td>C2</td>
+                            <td>C2</td>
+                            <td>C2</td>
+                            <td>C2</td>
+                        </tr>
+                        <tr>
+                            <td>Françês</td>
+                            <td>B1</td>
+                            <td>B1</td>
+                            <td>A2</td>
+                            <td>A2</td>
+                            <td>A2</td>
+                        </tr>               
+                        <tr>
+                            <td>Espanhol</td>
+                            <td>B1</td>
+                            <td>B2</td>
+                            <td>B1</td>
+                            <td>C2</td>
+                            <td>A2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    </section>
+
+    </section>
+    <section id="contact">
+<div>
+    <input type="text" class="textarea" placeholder="Primeiro Nome">
+    <textarea id="txtObs" placeholder="Comentário"></textarea>
+    <button id="btnguardar">Guardar</button>
+</div>
+    </section>
+    <footer id="rodape">
+        <p>2020 © All rights reserved - Design by Miguel Rodrigues</p>
+    </footer>
+</body>
+</html>
